@@ -1,0 +1,277 @@
+@font-face{
+	font-family: 'Quicksand';
+	src: url('Quicksand-Regular.otf') format('truetype');
+}
+
+@font-face{
+	font-family: 'Kaushan Script';
+	src: url('KaushanScript-Regular.otf') format('truetype');
+}
+
+body{
+	background-color: white;
+}
+
+.container {
+	background-color: #FFF;
+	border-bottom: 50px solid #ECEDEF;
+}
+
+.container img {
+	position: absolute;
+	padding: 5px;
+	width: 150px;
+}
+
+.header {
+	background-image: url(img/Judul.jpg);
+	text-align: center;
+}
+
+.header .judul1 {
+	text-align: right;
+}
+
+.container .header ul li {
+	display: inline-block;
+	padding-right: 5px;
+	font: 10px/1px 'Quicksand';
+	color: black;
+	margin-top: 15px;
+	margin-right: 20px; 
+}
+
+.header ul li .select select {
+	font: 10px/12px 'Quicksand';
+	background-color: rgba(255,255,255,.0);
+	border: transparent;
+	color: black;
+}
+
+.clear {
+	clear: both;
+}
+
+.container .judul2 {
+	width: 960px;
+	text-align: left;
+	margin-left: 295px;
+}
+
+.container .judul2 h1 {
+	font: 34px/40px arial;
+	color: black;
+	font-weight: bold;
+	text-shadow: 0.7px 0.7px 0.9px rgba(255,255,255,.9);
+	padding-top: 25px;
+}
+
+.container .judul2 h6 {
+	width: 330px;
+	font: 14px/40px arial;
+	color: black;
+	font-weight: bold;
+	padding-bottom: 7px;
+	border-bottom: 2.5px solid #DFE0E1;
+}
+
+.container .judul2 h3 {
+	width: 330px;
+	font: 20px/35px Arial;
+	border-bottom: 2.5px solid #DFE0E1;
+	font-weight: bold;
+	padding-bottom: 25px;
+}
+
+.container .judul2 .profilJudul img {
+	border-radius: 50%;
+	width: 60px;
+}
+
+.container .judul2 .profilJudul h4 {
+	font: 12px/12px 'Quicksand';
+	padding: 30px 0px 30px 75px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.container .judul2 .profilJudul .ago {
+	font: 12px/12px 'Quicksand';
+	padding-left: 20px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.container .judul2 .profilJudul .minutes {
+	font: 12px/12px 'Quicksand';
+	padding-left: 20px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.content {
+	width: 960px;
+	margin: 30px auto;
+}
+
+.content .main {
+	width: 600px;
+	float: left;
+	margin-right: 60px;
+	padding-bottom: 40px;
+	border-bottom: 2.5px solid #DFE0E1;
+}
+
+.content .main p {
+	text-align: justify;
+	font: 18px/30px arial;
+	color: #181008;
+}
+
+.content .main h1 {
+	font: 29px/42px arial;
+	font-weight: bold;
+	color: ##515151;
+}
+
+.content .main img {
+	width: 600px;
+	padding: 15px 0px;
+}
+
+.content .sidebar p{
+	text-align: justify;
+	font: 13px/20px arial;
+	color: #676C6E;
+}
+
+.content .sidebar h1 {
+	font: 15px/37px arial;
+	color: #676C6E;
+	font-weight: bold;
+}
+
+.content .sidebar img {
+	width: 300px;
+}
+
+.content .sidebar h3 {
+	display: inline-block;
+	font: 12px/3px 'Quicksand';
+	color: #676C6E;
+	padding: 10px;
+	font-weight: bold;
+	background-color: #DFE0E1;
+	margin-bottom: 7px;
+	margin-right: 5px;
+}
+
+.content .sidebar h2 {
+	text-align: justify;
+	font: 13px/20px arial;
+	color: #676C6E;
+	padding-bottom: 8px;
+}
+
+
+.profil {
+	padding-top: 20px;
+	width: 880px;
+	background-color: #ECEDEF;
+}
+
+.profil .text {
+	padding-right: 30px;
+	margin-left: 370px;
+	display: inline-block;
+	margin-top: -85px;
+}
+
+
+.profil h1 {
+	display: inline-block;
+	font: 22px/40px arial;
+	color: #676C6E;
+	font-weight: bold;
+	padding-left: 8px;
+}
+
+.profil h5 {
+	display: inline-block;
+	font: 19px/40px arial;
+	color: #676C6E;
+}
+
+.profil p {
+	text-align: justify;
+	font: 16px/20px arial;
+	color: #676C6E;
+}
+
+.profil .profilku {
+	float: left;
+}
+
+.profil img {
+	width: 75px;
+	margin: 20px 0px 0px 280px;
+	border-radius: 100px;
+}
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+
+
+<--! Footer -->
+\
+footer .box .content:after{
+  position: absolute;
+  background: #f12020;
+}
+
+
+footer .bottom center{
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+footer .bottom center span{
+  color: #656565;
+}
+footer .bottom center a{
+  color: #f12020;
+  text-decoration: none;
+}
+footer .bottom center a:hover{
+  text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  footer .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  footer .main-content .box{
+    margin: 5px 0;
+  }
+}
