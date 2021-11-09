@@ -1,2 +1,2 @@
-# Blog-Website-with-HTML-CSS
+# Blog Website with HTML/CSS
 HTML CSS Blog Project
